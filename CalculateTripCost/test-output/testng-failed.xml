@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.hackathon.test.HolidayHomes">
+        <methods>
+          <include name="setNoOfPeople"/>
+          <include name="flushReport"/>
+          <include name="fetchData"/>
+          <include name="extentReport"/>
+          <include name="getDriver"/>
+          <include name="getSearch"/>
+          <include name="selectLiftOption"/>
+          <include name="setSortByTravellerRating"/>
+          <include name="getResult"/>
+          <include name="getTripadvisorHomePage"/>
+          <include name="setDates"/>
+        </methods>
+      </class> <!-- com.hackathon.test.HolidayHomes -->
+      <class name="com.hackathon.test.Cruises">
+        <methods>
+          <include name="flushReport"/>
+          <include name="getCruiseDetails"/>
+          <include name="extentReport"/>
+          <include name="cruisesHomePage"/>
+          <include name="searchCruise"/>
+          <include name="getLanguageDetails"/>
+          <include name="quit"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.hackathon.test.Cruises -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
